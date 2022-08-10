@@ -65,14 +65,14 @@ h3 {
     font-size: 20px;
 }
 
-#view-albums {
+.link {
     text-align: center;
     text-decoration: none;
     color: red;
     width: 20vw;
 }
 
-#view-albums:hover {
+.link:hover {
     background-color: black;
     color: white;
 }
