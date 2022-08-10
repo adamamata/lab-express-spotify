@@ -28,4 +28,15 @@ form {
 .centered{
     text-align: center;
     height: 50px;
+    border: none;
+}
+
+button:hover{
+    color: white;
+    cursor:grab;
+    background-color: red;
+}
+
+input {
+    width: 20vw;
 }
