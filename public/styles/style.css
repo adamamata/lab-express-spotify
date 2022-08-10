@@ -40,3 +40,39 @@ button:hover{
 input {
     width: 20vw;
 }
+
+
+ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#artist-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover {
+    width: 30vw;
+    height: 30vw;
+    margin: 10px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+#view-albums {
+    text-align: center;
+    text-decoration: none;
+    color: red;
+    width: 20vw;
+}
+
+#view-albums:hover {
+    background-color: black;
+    color: white;
+}
