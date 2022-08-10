@@ -1,7 +1,9 @@
-<div id="artist-div">
+<div class="page">
     {{#each albums}}
-    <img src="{{images.0.url}}">
+    <div class="section-div">
+        <img class="cover" src="{{images.0.url}}">
         <h3>{{name}}</h3>
         <a href="/tracks/{{id}}">View tracks</a>
+    </div>
     {{/each}}
 </div>

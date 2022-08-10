@@ -42,13 +42,13 @@ input {
 }
 
 
-ul {
+.page {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-#artist-div {
+.section-div {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -75,4 +75,10 @@ h3 {
 #view-albums:hover {
     background-color: black;
     color: white;
+}
+
+#album-page{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }

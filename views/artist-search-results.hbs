@@ -1,10 +1,9 @@
-<ul>
+<ul class="page">
     {{#each artists}}
-    <div id="artist-div">
-    
-    <img class="cover" src="{{images.0.url}}">
-    <h3>{{name}}</h3>
-    <a id="view-albums" href="/albums/{{id}}">View albums</a>
+    <div class="section-div">
+        <img class="cover" src="{{images.0.url}}">
+        <h3>{{name}}</h3>
+        <a id="view-albums" href="/albums/{{id}}">View albums</a>
     </div>
     {{/each}}
 </ul>
